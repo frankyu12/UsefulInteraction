@@ -1,0 +1,40 @@
+.container{
+    width: 640px;
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+  }
+  .album{
+    height: 400px;
+    width: 640px;
+    overflow: hidden;
+  }
+  .images{
+    position: relative;
+    display: flex;
+    height: 400px;
+  }
+  img{
+    width: 640px;
+    height: 400px;
+  }
+  button, button:active, button:focus{
+    width: 100px; height: 30px;
+    border: none;
+    color: white;
+    background-color: teal;
+    outline: none;
+  }
+  button:hover{
+    background-color: turquoise;
+  }
+  button:disabled{
+    background-color: gray;
+  }
+  .prev{
+    float: left;
+  }
+  .next{
+    float: right;
+  }
